@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+header,section,footer,aside,nav,article,figure
+{
+	display: block;
+}
+/* Définition des polices personnalisées */
+
+*
+{
+	font-family: Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace;
+}
+
+body
+{
+	background-image:url(backgrounds/8102784-numbers-background-Stock-Vector.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#bloc
+{
+    width: 900px;
+    margin: auto;
+}
+
+.maintitle
+{
+	font-family: Comic Sans MS;
+	border: thin;
+	background-color: #02222B;
+	border-top-right-radius: 2em;
+	padding: 2em;
+	color: white;
+}
+
+#logo
+{
+	display: flex;
+    align-items: baseline;
+}
+
+.intro
+{
+	text-align: justify;
+	font-weight: bold;
+	text-shadow: 2em 1em black,
+}
+
+.language
+{
+	display: flex;
+	border:hidden;
+	padding: 3em;
+	margin: 4em;
+	position: relative;
+	align-content: flex-end;
+	
+}
+
+#FR , #EN
+{
+	border: thin;
+	background-color: #02222B;
+	border-radius: 2em;
+	padding: 2em;
+	color: white;
+}
+
+#FR:hover
+{
+	border: thin;
+	background-color:#559DF4;
+	border-radius: 2em;
+	padding: 2em;
+	color: white;
+	cursor: pointer;
+}
+
+#EN:hover
+{
+	border: thin;
+	background-color:#559DF4;
+	border-radius: 2em;
+	padding: 2em;
+	color: white;
+	cursor: pointer;
+}
+
+#number  
+{
+	text-align: center;
+	font-size: 40px;
+	width: 90px;
+	margin-left: 3.7em;
+	padding: 2em;
+	border: dotted;
+	background-color: #02222B;
+	border-radius: 2em;
+	color: white;
+}
+#result
+{
+	text-align: center;
+	font-size: 20px;
+	width: 450px;
+	height: 20px;
+	margin-left: 1.7em;
+	border: dotted;
+	background-color:black;
+	border-radius: 2em;
+	padding: 2em;
+	color: white;
+}
+
+#previous , #next
+{
+	border: thin;
+	background-color: #02222B;
+	border-radius: 2em;
+	margin-left: -10em;
+	padding: 2em;
+	color: white;
+}
+
+#previous:hover
+{
+	border: thin;
+	background-color:#3B7CED;
+	border-radius: 2em;
+	margin-left: -10em;
+	padding: 2em;
+	color: white;
+	cursor: pointer;
+}
+
+a
+{
+	text-decoration: none;
+	margin: 1.9em;
+	text-align: right;
+	color: black;
+}
+
+a:hover
+{
+	color: red;
+}
+
+#next:hover
+{
+	border: thin;
+	background-color:#3B7CED;
+	border-radius: 2em;
+	margin-left: -10em;
+	padding: 2em;
+	color: white;
+	cursor: pointer;
+}
